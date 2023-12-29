@@ -27,7 +27,8 @@ Test set statistics:
   ![Screenshot 2023-12-30 033108](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/cf3d5a11-f0db-4bdb-8709-1f742f719668)
 
   Model: "sequential_1"
-  ![image](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/777d18d9-073b-4222-8f53-5d47cb567f22)
+  ![Screenshot 2023-12-30 033835](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/c672590e-af0e-43ce-9ddc-5c4fb0345636)
+
 
 
 menggunakan Model MobileNet, melakukan imagegenerator dengan melakukan 10 epcoh
