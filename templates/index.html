@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Image Classification</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="fileInput">Choose an image:</label>
+        <div>
+            <input type="file" id="fileInput" name="file" accept=".jpg, .jpeg, .png" required onchange="previewImage(this)">
+        </div>
+        <button type="submit">Predict</button>
+    </form>
+    
+    <div id="imagePreview" style="display: none;">
+        <h2>Selected Image</h2>
+        <img id="preview" src="" alt="Selected Image">
+    </div>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <script>
+        function previewImage(input) {
+            var preview = document.getElementById('preview');
+            var previewContainer = document.getElementById('imagePreview');
+            var fileNameSpan = document.getElementById('fileName');
+            var file = input.files[0];
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                preview.src = e.target.result;
+                previewContainer.style.display = 'block';
+            };
+
+            if (file) {
+                reader.readAsDataURL(file);
+                fileNameSpan.textContent = file.name;
+            } else {
+                fileNameSpan.textContent = 'No file chosen';
+            }
+        }
+    </script>
+</body>
+</html>
