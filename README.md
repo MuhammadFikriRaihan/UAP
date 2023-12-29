@@ -1,4 +1,4 @@
-![image](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/896aa5ef-fca5-4f67-b597-224a416268d3)# UAP
+# UAP
 UAP ini adalah untuk menyusun dan mengintegrasikan model machine learning
 pada sisi klien menggunakan TensorFlow.js atau teknologi sejenis. Bagaimana menyajikan model
 machine learning sebagai layanan web menggunakan Flask dan mengimplementasikan model machine learning dengan aplikasi web
