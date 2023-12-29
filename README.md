@@ -24,12 +24,16 @@ Test set statistics:
    Menerapkan mode kelas
 * **Modelling menggunakan MobileNetV2**
   
-baseModel.summarry:
+   baseModel.summarry:
 
 ![Screenshot 2023-12-30 033108](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/cf3d5a11-f0db-4bdb-8709-1f742f719668)
-Model: "sequential_1" :
+   Model: "sequential_1" :
 
 ![Screenshot 2023-12-30 033835](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/c672590e-af0e-43ce-9ddc-5c4fb0345636)
+
+   Visualization Accuracy, Val Accuracy, Loss and Val Loss :
+   
+![image](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/2eeb5fdc-3e50-4502-a384-69ab232416b4)
 
 
 
