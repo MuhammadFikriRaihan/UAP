@@ -1,4 +1,4 @@
-# UAP
+# :ringed_planet: UJIAN AKHIR PRAKTIKUM
 UAP ini adalah untuk menyusun dan mengintegrasikan model machine learning
 pada sisi klien menggunakan TensorFlow.js atau teknologi sejenis. Bagaimana menyajikan model
 machine learning sebagai layanan web menggunakan Flask dan mengimplementasikan model machine learning dengan aplikasi web
