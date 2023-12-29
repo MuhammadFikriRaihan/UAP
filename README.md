@@ -35,6 +35,10 @@ Test set statistics:
    
 ![image](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/2eeb5fdc-3e50-4502-a384-69ab232416b4)
 
+   Classification Report :
+
+![image](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/2d337698-d318-4821-b146-4ae36b02e82d)
+
 
 
 menggunakan Model MobileNet, melakukan imagegenerator dengan melakukan 10 epcoh
