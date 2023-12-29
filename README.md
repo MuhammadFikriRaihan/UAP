@@ -4,8 +4,9 @@ machine learning sebagai layanan web menggunakan Flask dan mengimplementasikan m
 
 ## Dataset 
 Dataset yang digunakan adalah dataset image yang dimana berisi gambar Rock, Pape dan scissors
-spliting Dataset: 
-Training = 70%, Validation = 20%, Testing = 10% 
+
+spliting Dataset: Training = 70%, Validation = 20%, Testing = 10% 
+
 Set Image Statistics :
 
 Training set statistics:
