@@ -1,14 +1,32 @@
-# UAP
+![image](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/896aa5ef-fca5-4f67-b597-224a416268d3)# UAP
 UAP ini adalah untuk menyusun dan mengintegrasikan model machine learning
 pada sisi klien menggunakan TensorFlow.js atau teknologi sejenis. Bagaimana menyajikan model
 machine learning sebagai layanan web menggunakan Flask dan mengimplementasikan model machine learning dengan aplikasi web
 
 ## Dataset 
-Rock
-Paper
-scissors
+Dataset yang digunakan adalah dataset image yang dimana berisi gambar Rock, Pape dan scissors
+spliting Dataset: Training = 70%, Validation = 20%, Testing = 10% 
+Set Image Statistics :
 
-## Model
+Training set statistics:
+{'paper': 588, 'rock': 588, 'scissors': 588}
+
+Validation set statistics:
+{'paper': 210, 'rock': 210, 'scissors': 210}
+
+Test set statistics:
+{'paper': 42, 'rock': 42, 'scissors': 42}
+
+## Preprocessing dan Modelling 
+* **Preprocessing training dan validation** :
+   Rescaling image menjadi 1./255, Rotasi image ±30° secara random, Perbesar image kisaran 20%, dan Flip image secara   
+   horizontal, fill_mode='nearest', Target size image(150), Menerapkan pengacakan pada image, Menerapkan batch size dan   
+   Menerapkan mode kelas
+* **Modelling menggunakan MobileNetV2**
+  baseModel.summarry()
+  ![Screenshot 2023-12-30 033108](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/cf3d5a11-f0db-4bdb-8709-1f742f719668)
+
+
 menggunakan Model MobileNet, melakukan imagegenerator dengan melakukan 10 epcoh
 
 ## MobileNet
