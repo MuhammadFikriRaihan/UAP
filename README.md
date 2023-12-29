@@ -23,6 +23,7 @@ Test set statistics:
    horizontal, fill_mode='nearest', Target size image(150), Menerapkan pengacakan pada image, Menerapkan batch size dan   
    Menerapkan mode kelas
 * **Modelling menggunakan MobileNetV2**
+  
 baseModel.summarry:
 
 ![Screenshot 2023-12-30 033108](https://github.com/MuhammadFikriRaihan/UAP/assets/71715268/cf3d5a11-f0db-4bdb-8709-1f742f719668)
